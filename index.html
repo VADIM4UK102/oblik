@@ -29,7 +29,11 @@ table{width:100%;border-collapse:collapse;font-size:12px}td,th{text-align:left;p
 <div class="card metric"><div class="ico">📦</div><small>Залишок товару</small><strong id="stock">0 шт.</strong></div>
 <div class="card metric"><div class="ico">💰</div><small>Виторг</small><strong id="revenue">0,00 zł</strong></div>
 <div class="card metric"><div class="ico">🧾</div><small>Вкладено в закупівлі</small><strong id="spent">0,00 zł</strong></div>
-<div class="card metric"><div class="ico">🏷️</div><small>Собівартість залишку</small><strong id="stockValue">0,00 zł</strong></div>
+<div class="card metric">
+  <div class="ico">📊</div>
+  <small>Виторг мінус усі закупівлі</small>
+  <strong id="netCash">0,00 zł</strong>
+</div>
 </div>
 <div class="card"><div class="row"><h3>Рух товару</h3><span class="pill">FIFO</span></div><div class="row item"><span class="muted">Закуплено</span><b id="boughtQty">0 шт.</b></div><div class="row item"><span class="muted">Продано</span><b id="soldQty">0 шт.</b></div><div class="row item"><span class="muted">Собівартість проданого</span><b id="cogs">0,00 zł</b></div></div>
 <div class="card"><h3>Останні операції</h3><div id="recent" class="empty">Поки немає операцій</div></div>
