@@ -1,0 +1,10 @@
+{
+  "name": "Resale — облік FIFO",
+  "short_name": "Resale",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090e1b",
+  "theme_color": "#0b1020",
+  "description": "Облік закупівель, продажів і прибутку за FIFO",
+  "icons": []
+}
